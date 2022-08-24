@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+}
+
+
+body {background: lawngreen; 
+font-family: 'Uchen', serif; 
+} 
+h1{
+    font-family: 'Uchen', serif; 
+    font-size: 30px;
+} 
+h1 strong{
+    color: #00ccaa;
+}
+
+ul{
+    list-style: none; 
+    margin: 0px; 
+    padding: 0px; 
+    display: flex; 
+    height: inherit;
+} 
+
+.header{
+background: black; 
+color: whitesmoke; 
+display: flex; 
+justify-content: space-between; 
+height: 90px;
+} 
+.header li{
+    height: inherit;
+}
+
+.aplicar{
+    height: 500px; 
+    background: #006e65b6; 
+    display: flex; 
+    color: black;
+} 
+
+.principal img{
+    width: 300pxpx; 
+}
+.aplicar-detalles{
+    width: 50%; 
+    height: inherit; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding: 0px 30px; 
+    text-align: center;
+}
+.aplicar-detalles img{
+    height: 90%; 
+
+}
+
+.header a {
+    color: whitesmoke; 
+    text-decoration: none; 
+    height: inherit; 
+    display: flex; 
+    align-items: center; 
+    padding: 0px 10px;
+}
+
+.principal{
+    background: red;
+    background-image: url("img/fondo.png"); 
+    background-size: cover; 
+    text-align: center;
+    padding: 100px;
+
+} 
+
+
+
+.principal-boton{
+    width: 250px; 
+    height: 40px; 
+    background-color: #02005f; 
+    border-radius: 24px; 
+    border: none; 
+    font-size: 20px; 
+    cursor: pointer; 
+    margin-top: 30px; 
+}
+.logo img{
+    width: 90px;
+} 
+.menu{
+    height: inherit;
+} 
+
+.segunda{
+    background: #02005f; 
+    color: brown; 
+    padding: 100px 200px; 
+    text-align: center;
+}
+ 
+.segunda h2{
+    color: aquamarine; 
+    margin-bottom: 10px;
+} 
+
+.segunda p{
+    margin-bottom: 20px;
+}
+
+.tercera{background: #0e0add;
+color: aqua;
+text-align: left;
+padding: 2.5% 10% 20% 5% ; 
+font-size: 20px;
+} 
